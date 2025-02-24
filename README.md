@@ -1,5 +1,27 @@
-# ObjectManipulation
-## This is the content of ```sculptureListLengths```
+#js-object-manipulation 
+# 🎭 Sculpture List Lengths
+
+## 📌 About This Project
+This project processes a list of sculptures using Node.js. It extracts the lengths of the values in the dataset and creates a new object (`sculptureListLengths`) with those lengths.
+
+## 📂 Files in This Repository
+- `sculptureScript.js` - The main script that processes the data.
+- `data.js` - Contains the original list of sculptures.
+- `readme.md` - This documentation.
+
+## 📊 Example Output
+After running `node sculptureScript.js`, the first element of `sculptureListLengths` looks like this:
+
+```javascript
+{
+  name: 24,
+  artist: 20,
+  description: 187,
+  url: 28,
+  alt: 87
+}
+
+### This is the content of ```sculptureListLengths```
 ```
 [
   { name: 26, artist: 20, description: 198, url: 31, alt: 90 },
